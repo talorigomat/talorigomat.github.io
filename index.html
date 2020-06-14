@@ -1,11 +1,66 @@
 <!doctype html>
-<html lang="en-uk">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> My First Page</title>
-</head>
+<meta charset="utf-8">
 
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
 <body>
-  <h1> First Github Page</h1>
+<div id="wrapper">
+<div id="container">
+	
+	<header>
+    <hgroup>
+    <h1>Site Name</h1>
+    <h2>Tag Line</h2>
+    </hgroup>
+    </header>
+    
+    
+    <!-- page navigation links here -->
+    <nav>
+    <ul>
+    	<li><a href="#">One</a></li>
+    	<li><a href="#">Two</a></li>
+    	<li><a href="#">Three</a></li>
+    </ul>
+    </nav>
+    
+    
+    <!-- page content here -->
+    <div id="content">
+    <h1>Page Name</h1>
+    <p>Content for this page.</p>
+    </div><!-- end content -->
+    
+    
+    <footer>
+    <p>&copy; Paul Cheney &bull; Responsive Start File</p>
+    </footer>
+    
+    </div> <!-- end container -->
+    </div> <!-- end wrapper -->
 </body>
 </html>
