@@ -6,7 +6,8 @@ html {-webkit-text-size-adjust: none; }
 
 /*-----BODY -----*/
 body {
-	font-size: 16px;	
+	font-size: 16px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 
@@ -26,8 +27,16 @@ header img{
     float:left;
     padding: .5em 2%
 }
-header h1 {}
-header h2 {}
+header h1 {
+    font-size: 1.8em;
+    padding-top: 2em;
+    color: #f9db00;
+}
+header h2 {
+    font-size: 1.1em;
+    padding-top: 3em 0 .6em 0;
+    color: #ff2a86;
+}
 
 
 
@@ -64,6 +73,6 @@ footer {
 
 
     /*-------OTHER ------*/
-.keepOpen(
-        clear: both;
+.keepOpen{
+    clear:both;
 }
