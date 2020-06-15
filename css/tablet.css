@@ -15,7 +15,16 @@
 
 
 /*-----NAVigation -----*/
-	nav ul li {	}
+    nav{ background-color: #004bb8; /* fills the rest of the nav bar */
+        
+    }	
+    nav ul li a {	
+    float: left;
+    border: none;
+    border-radius: 0px;
+    margin: 0px
+    }
+    
 	nav ul li a {}
 
 
