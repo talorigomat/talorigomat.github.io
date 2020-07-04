@@ -27,9 +27,17 @@
     
 	nav ul li a {}
 
-
-
 /*-----CONTENT -----*/
+
+
+
+
+/*-----IMAGES -----*/
+
+figure.w33{
+	width: 46%;
+	float: right;
+}
 
 
 

@@ -8,6 +8,7 @@ html {-webkit-text-size-adjust: none; }
 body {
 	font-size: 16px;
     font-family: Verdana, Geneva, sans-serif;
+	background-color: #f3f9d6;
 }
 
 
@@ -15,7 +16,7 @@ body {
 #container {
 	background-color: #224260;   /*becomes the nav background color*/
 	min-width: 320px;
-	max-width: 1140px;
+	max-width: 960px;
 }
 
 /*-----HEADER -----*/
@@ -55,8 +56,12 @@ nav ul li a {
     margin: .5em;
     font-size: .85em;
 }
+nav ul li.active a{
+    background-color: #b8005c;
+}
 nav ul li a:hover {
 	background-color:#f9db00;
+    color: #323C46;
 }
 
 
@@ -64,7 +69,59 @@ nav ul li a:hover {
 /*-----CONTENT -----*/
 #content {
 	min-height: 5em;
+	background-color: #fff;
 }
+
+#content h1{
+	margin: 1em 2% 0 2%;
+	font-size: 1.5em;
+	color: #b8005c;
+}
+#content p{
+	padding-bottom: .5em;
+}
+
+#content article{
+    margin: 0 2%;
+}
+
+#content article.news, #content article.tweet{
+    background-color: #ddd;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#content article.news h2, #content article.tweet h2{
+    color: #fff;
+    font-size: .8em;
+    padding: .5em;
+}
+
+#content article.news h2{background-color: #004bb8}
+#content article.tweet h2{background-color: #b8005c}
+
+/*-----IMAGES -----*/
+figure.w100{
+	width: 100%;
+}
+figure.w33{
+	width: 96%;
+	border: 1px solid #999;
+	margin: .3em 0 .3em 2%;
+}
+
+figure img{
+	width: 100%;	
+}
+
+#content figcaption{
+	text-align: center;
+	font-size: .6em;
+	color: #777;
+	padding: .3em;
+}
+
+
 
 
 
@@ -73,6 +130,9 @@ footer {
 	clear: both;
 	text-align: center;
 	padding: 1em;
+	background-color: #111;
+	color: #fff;
+	font-size: .6em;
 }
 
 

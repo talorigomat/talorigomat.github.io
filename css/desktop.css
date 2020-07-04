@@ -1,6 +1,9 @@
-@media only screen and (min-width: 1141px) {
+@media only screen and (min-width: 960px) {
 /*-----BODY -----*/
-	body {}
+	body {
+		background-image: url(..\test.png);
+		background-repeat: repeat-x;
+	}
 
 /*-----WRAPPER -----*/
 	#wrapper {}
@@ -20,6 +23,17 @@
 
 
 /*-----CONTENT -----*/
+
+
+#content div.row article{
+    width: 50%;
+}
+
+
+
+figure.w33{
+	width: 29%;
+}
 
 
 
